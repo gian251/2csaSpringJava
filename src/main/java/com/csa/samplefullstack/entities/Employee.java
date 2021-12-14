@@ -1,4 +1,4 @@
-package com.csa.samplefullstack.entity;
+package com.csa.samplefullstack.entities;
 
 import javax.persistence.*;
 
@@ -55,4 +55,3 @@ public class Employee {
         this.location = location;
     }
 }
-
