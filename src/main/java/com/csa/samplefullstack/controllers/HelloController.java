@@ -1,15 +1,14 @@
 package com.csa.samplefullstack.controllers;
 
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin("*") //allow all request
+@CrossOrigin("*") 
 public class HelloController {
-    @RequestMapping("hello")
-    public String hello() {
-        return "hello spring!";
+    
+    @RequestMapping("/hello")
+    public String hello(){
+        return "Hello spring!";
     }
 }
