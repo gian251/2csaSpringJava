@@ -13,7 +13,7 @@ import java.util.*;
 @CrossOrigin("*")
 public class EmployeeController {
     
-    @Autowired 
+    @Autowired
     private EmployeeRepository employeeRepository;
     
     @GetMapping("/employees")
